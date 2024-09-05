@@ -1,25 +1,24 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "CryptoSwift",
-        "repositoryURL": "https://github.com/krzyzanowskim/CryptoSwift.git",
-        "state": {
-          "branch": null,
-          "revision": "4e31051c63cc0ddf10a25cf5318856c510cf77f4",
-          "version": "1.4.0"
-        }
-      },
-      {
-        "package": "KeychainAccess",
-        "repositoryURL": "https://github.com/kishikawakatsumi/KeychainAccess.git",
-        "state": {
-          "branch": null,
-          "revision": "84e546727d66f1adc5439debad16270d0fdd04e7",
-          "version": "4.2.2"
-        }
+  "originHash" : "0f311efe1b156ed5c43df3d1d16baebcdbe414bf7dcedc060b7d47be881200e8",
+  "pins" : [
+    {
+      "identity" : "cryptoswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/krzyzanowskim/CryptoSwift.git",
+      "state" : {
+        "revision" : "678d442c6f7828def400a70ae15968aef67ef52d",
+        "version" : "1.8.3"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "keychainaccess",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kishikawakatsumi/KeychainAccess.git",
+      "state" : {
+        "revision" : "84e546727d66f1adc5439debad16270d0fdd04e7",
+        "version" : "4.2.2"
+      }
+    }
+  ],
+  "version" : 3
 }

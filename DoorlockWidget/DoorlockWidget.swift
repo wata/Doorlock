@@ -46,7 +46,7 @@ struct DoorlockWidgetEntryView : View {
                         .font(.headline)
                         .padding(widgetFamily == WidgetFamily.systemSmall ? .trailing : .all, widgetFamily == WidgetFamily.systemSmall ? -8 : 16)
                         .padding(widgetFamily == WidgetFamily.systemSmall ? .all : .all, widgetFamily == WidgetFamily.systemSmall ? 16 : 0)
-                        .background(Color(UIColor.systemFill))
+                        .containerBackground(Color(UIColor.systemFill), for: .widget)
                         .clipShape(Capsule())
                         .offset(CGSize(width: 0, height: 6))
                 }
@@ -56,7 +56,7 @@ struct DoorlockWidgetEntryView : View {
                         .font(.headline)
                         .padding(widgetFamily == WidgetFamily.systemSmall ? .trailing : .all, widgetFamily == WidgetFamily.systemSmall ? -8 : 16)
                         .padding(widgetFamily == WidgetFamily.systemSmall ? .all : .all, widgetFamily == WidgetFamily.systemSmall ? 16 : 0)
-                        .background(Color(UIColor.systemFill))
+                        .containerBackground(Color(UIColor.systemFill), for: .widget)
                         .clipShape(Capsule())
                         .offset(CGSize(width: 0, height: 6))
                 }
